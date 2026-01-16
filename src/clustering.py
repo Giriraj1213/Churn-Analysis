@@ -18,12 +18,12 @@ def main():
     # Save PCA clusters
     pca_df = pd.DataFrame(pca_data, columns=["PC1", "PC2"])
     pca_df["Cluster"] = clusters
-    pca_df.to_csv("../data/pca_clusters.csv", index=False)
+    pca_df.to_csv("/Users/rajsilwal/Documents/GitHub/Churn-Analysis/data/pca_clusters.csv", index=False)
 
     # Save clustered dataset
     clustered_df = X.copy()
     clustered_df["Cluster"] = clusters
-    clustered_df.to_csv("../data/clustered_dataset.csv", index=False)
+    clustered_df.to_csv("/Users/rajsilwal/Documents/GitHub/Churn-Analysis/data/clustered_data.csv", index=False)
 
     print("Clustering complete.")
 

@@ -40,9 +40,9 @@ def main():
     X_scaled = pd.DataFrame(X_scaled, columns=X.columns)
 
     # Save outputs
-    df.to_csv("../data/cleaned_dataset.csv", index=False)
-    X_scaled.to_csv("../data/x_scaled.csv", index=False)
-    y.to_csv("../data/y.csv", index=False)
+    df.to_csv("data/cleaned_dataset.csv", index=False)
+    X_scaled.to_csv("/Users/rajsilwal/Documents/GitHub/Churn-Analysis/data/X_scaled.csv", index=False)
+    y.to_csv("/Users/rajsilwal/Documents/GitHub/Churn-Analysis/data/y.csv", index=False)
 
     print("Preprocessing complete.")
 
