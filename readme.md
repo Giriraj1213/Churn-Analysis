@@ -71,10 +71,10 @@ This folder contains the final project report and supporting figures.
 - The repository was restructured to align with Stage 2 deliverable requirements.
 - Original folders and files have been retained for reference; all assessment-relevant
   materials are located within the `Data_Preparation` and `Clustering_Analysis` folders.
-- The code is not intended to be re-run by the marker.
+- **The code is not intended to be re-run by the marker**.
 
 ---
 
 
 ## Author
-Giriraj Silwal BK
+Giriraj Silwal BK(Project Manager) and the team
